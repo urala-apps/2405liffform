@@ -4,8 +4,10 @@
 
 /* ボタン色設定 */
 :root {
-  --left-color: #F2A328;
-  --right-color: #BD1E21;
+  --bg: url("2405_vote_bg.png");
+  --arrow: url("2405_vote_arrow.png");
+  --btnLeft:url("2405_vote_btn_left.png");
+  --btnRight:url("2405_vote_btn_right.png");
 }
 
 * {
@@ -25,7 +27,7 @@ body {
 .image {
   width: 100%;
   height: 100vh;
-  background-image: url("egg_bg.png");
+  background-image: var(--bg);
   background-size: cover;
   background-position: center;
 }
@@ -51,7 +53,7 @@ body {
   width: 100%;
   height: 100%;
   top: 0px;
-  background-image: url("./whichi.png");
+  background-image: var(--arrow);
   background-size: contain;
   background-repeat: no-repeat;
   /* background:no-repeat; */
@@ -126,7 +128,7 @@ li {
   overflow: visible;
   cursor: pointer;
 
-  background-image: url(btn_left.png);
+  background-image: var(--btnLeft);
   width: 100%;
   height: 160px;
   /* display: block;
@@ -156,7 +158,7 @@ li {
   overflow: visible;
   cursor: pointer;
 
-  background-image: url(btn_right.png);
+  background-image: var(--btnRight);
   width: 100%;
   height: 160px;
 }
