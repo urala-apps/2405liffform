@@ -25,8 +25,8 @@ looker　一覧作成
 
 ////////////////////////////////////////////////////////////
 const shopName = "ウララ2405";
-const menu_left = "ごはん";
-const menu_right = "パン";
+const menu_left = "ライス";
+const menu_right = "ルー";
 
 const menu_pic_left = "2405_vote_menu_left.png";
 const menu_pic_right = "2405_vote_menu_right.png";
