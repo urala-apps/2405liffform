@@ -100,7 +100,7 @@ $('form').submit(function (event) {
   // alert("投票しました！");
   Swal.fire({
     title: "投票完了！",
-    text: "利き手に" + voteText + "\nに投票しました。",
+    text: "利き手側に" + voteText + "\nに投票しました。",
     icon: "success"
   });
 
